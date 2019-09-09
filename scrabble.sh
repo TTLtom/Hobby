@@ -13,7 +13,7 @@ done
 
 inp=${input^^}
 c1=${#inp} #karakterszám
-c3=$((c1-1)) #tömb index 0-tól kezdődik, így itt egyel kisebb szám kell
+c3=$((c1-1)) #tömb index 0-tól kezdődik, így itt eggyel kisebb szám kell
 
 for ((c=0; c<=c3; c++)); do
 arr[$c]=${inp:c:1}
